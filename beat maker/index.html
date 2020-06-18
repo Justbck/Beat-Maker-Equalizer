@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Music</title>
+
+    <!--custom css-->
+    <link rel = "stylesheet" href = "./css/style.css">
+    <!--icons-->
+    <link rel = "stylesheet" href = ".css/all.min.css">
+     <!--bootstrap css-->
+    <link rel = "stylesheet" href = "./css/bootstrap.min.css">
+
+    <!--font-->
+    <link
+    href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+
+    <!--main script-->
+    <script src = "./js/main.js"></script>
+    <!-- js file-->
+    <script src = "./js/.min.js"></script>   
+    <!--jquery js file-->
+    <script src = "/js/jquery.3.5.1.min.js"></script>
+    <!--bootstrap js file-->
+    <script src = "./js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section class="app">
+    <canvas id="canvas">Canvas not supported.</canvas>
+    <div class="container">
+
+        
+
+          
+        <ul id="navigation">
+            <h1 class="header"></h1>
+            <p>Create sounds with just one tap</p>
+
+            <li id="left">- Up to rotate left</li>
+            <li id="right">Down to rotate right -</li>
+        </ul>
+       
+        <p class="count"><input type="range" id="range" min="1" max="10" step="1" value="30"></p>  
+        <div class="title">
+            <h1>Tap Music </h1>
+        </div>   
+        <div class="buttons">
+            
+
+            <div class="button1 button-style" >
+                <audio src="./sounds/bubbles.mp3" class="sound"></audio>
+              </div>
+              <div class="button2 button-style">
+                <audio class="sound">
+                  <source src="./sounds/clay.mp3" />
+                </audio>
+              </div>
+              <div class="button3 button-style">
+                <audio class="sound">
+                  <source src="./sounds/confetti.mp3" />
+                </audio>
+              </div>
+              <div class="button4 button-style">
+                <audio class="sound">
+                  <source src="./sounds/glimmer.mp3" />
+                </audio>
+              </div>
+              <div class="button5 button-style">
+                <audio class="sound">
+                  <source src="./sounds/moon.mp3" />
+                </audio>
+              </div>
+              <div class="button6 button-style">
+                <audio class="sound">
+                  <source src="./sounds/ufo.mp3" />
+                </audio>
+              </div>
+
+
+
+
+        </div>                    
+    </div>
+                        
+
+</section>
+
+</body>
+</html>

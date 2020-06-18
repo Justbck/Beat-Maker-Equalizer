@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+  }
+  
+  canvas#canvas {
+    display: block;
+    background: #000;
+  }
+
+
+    
+  ul#navigation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-align: center;
+    margin-right: 1.6rem;
+    font-size: 0.8rem;
+  }
+  ul#navigation > li {
+    display: inline-block;
+    padding: 0.8rem 0;
+  }
+
+  p{
+      font-size: 20px;
+      
+  }
+  
+  p.right {
+    font-size: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1.6rem;
+  }
+  
+  p.count {
+    z-index: -1;
+    display: none;
+  }
+  
+  @media screen and (min-width: 48rem) {
+    
+    p.count {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 2rem;
+    }
+    p.right{
+      left: initial;
+      right: 0;
+    }
+  
+  }
+
+
+   p{
+      font-size: 20px;
+  }
+  
+  
+  
+  .title h1 {
+   padding: 20px;
+  }
+  
+  @media screen and (min-width: 48rem) {
+
+    body{
+        background-color: #000;
+    }
+    
+    .title {
+      width:100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-align: center;
+      
+    }
+  }
+
+    
+  .buttons {
+    width:100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.11);
+    
+   }
+   
+   @media screen and (min-width: 48rem) {
+     
+     .buttons {
+       display: block;
+       position: absolute;
+       left: 0;
+       bottom: 0;
+       text-align: center;
+     }
+   }
+
+   .buttons {
+    display: flex;
+  }
+  .buttons > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+  }
+  .button1 {
+      background: linear-gradient(#0000007c,#60d394);
+  }
+  .button2 {
+    background:linear-gradient(#0000007c, #d36060);
+  }
+  .button3 {
+    background:linear-gradient(#0000007c, #c060d3);
+  }
+  .button4 {
+    background:linear-gradient(#0000007c, #d3d160);
+  }
+  .button5 {
+    background:linear-gradient(#0000007c, #606bd3);
+  }
+  .button6 {
+    background:linear-gradient(#0000007c, #60c2d3);
+  }
+
+
+  .button-style:hover{
+      cursor:pointer;
+      opacity: 0.6;
+      border:2px solid #FFF;
+      
+  }
+
+
+
+
+
+  
+  
